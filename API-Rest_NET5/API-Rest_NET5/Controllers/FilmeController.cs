@@ -1,7 +1,7 @@
-﻿using API_Rest_NET5.Data;
-using API_Rest_NET5.Data.Dtos;
-using API_Rest_NET5.Models;
-using AutoMapper;
+﻿using AutoMapper;
+using FilmesApi.Data;
+using FilmesAPI.Data.Dtos;
+using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,9 @@ namespace API_Rest_NET5.Controllers
     [Route("[controller]")] //referencia o controlle da classe, não é necessaria colocar o nome
     public class FilmeController : ControllerBase
     {
-        private FilmeContext _context;
+        private AppDbContext _context;
         private IMapper _mapper;
-        public FilmeController(FilmeContext  context, IMapper mapper)
+        public FilmeController(AppDbContext  context, IMapper mapper)
         {
             _context = context;
             _mapper =mapper;

@@ -1,6 +1,7 @@
-﻿using API_Rest_NET5.Data.Dtos;
-using API_Rest_NET5.Models;
+﻿
 using AutoMapper;
+using FilmesAPI.Data.Dtos;
+using FilmesAPI.Models;
 
 namespace API_Rest_NET5.Profiles
 {
