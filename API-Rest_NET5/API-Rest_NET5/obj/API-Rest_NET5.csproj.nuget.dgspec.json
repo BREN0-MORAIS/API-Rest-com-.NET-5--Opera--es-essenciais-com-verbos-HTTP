@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DESENVOLVIMENTO\\CODIGO FONTE - BRENO MORAIS\\API\\API_com_NET5_Estudos\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj": {}
+    "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\_API\\.NET 5\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj": {}
   },
   "projects": {
-    "D:\\DESENVOLVIMENTO\\CODIGO FONTE - BRENO MORAIS\\API\\API_com_NET5_Estudos\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj": {
+    "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\_API\\.NET 5\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESENVOLVIMENTO\\CODIGO FONTE - BRENO MORAIS\\API\\API_com_NET5_Estudos\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj",
+        "projectUniqueName": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\_API\\.NET 5\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj",
         "projectName": "API-Rest_NET5",
-        "projectPath": "D:\\DESENVOLVIMENTO\\CODIGO FONTE - BRENO MORAIS\\API\\API_com_NET5_Estudos\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj",
-        "packagesPath": "C:\\Users\\wcogeo\\.nuget\\packages\\",
-        "outputPath": "D:\\DESENVOLVIMENTO\\CODIGO FONTE - BRENO MORAIS\\API\\API_com_NET5_Estudos\\API-Rest_NET5\\API-Rest_NET5\\obj\\",
+        "projectPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\_API\\.NET 5\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\_API\\.NET 5\\API-Rest_NET5\\API-Rest_NET5\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wcogeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.emzi0767.com/api/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -44,6 +41,28 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -59,6 +78,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
         }
       }
     }
