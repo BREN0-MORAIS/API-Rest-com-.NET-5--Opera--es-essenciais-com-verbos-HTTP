@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FilmesAPI.Models;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace API_Rest_NET5.Models
 {
@@ -11,5 +13,7 @@ namespace API_Rest_NET5.Models
         public string Logradouro { get; set; }
         public string Bairro { get; set; }
         public int Numero { get; set; }
+        [JsonIgnore]
+        public virtual Cinema  Cinema { get; set; }
     }
 }

@@ -92,3 +92,5 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\_API\.NET 5\API-Rest_NET5\API-Rest_NET5\bin\Deb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\_API\.NET 5\API-Rest_NET5\API-Rest_NET5\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\_API\.NET 5\API-Rest_NET5\API-Rest_NET5\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\_API\.NET 5\API-Rest_NET5\API-Rest_NET5\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\_API\.NET 5\API-Rest_NET5\API-Rest_NET5\bin\Debug\net5.0\Castle.Core.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\_API\.NET 5\API-Rest_NET5\API-Rest_NET5\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
