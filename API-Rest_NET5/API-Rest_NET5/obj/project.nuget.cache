@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s8danRKO7asw+3+4cWsCut/TGptn/xbVloXZTbUcigY54x9mSuGh/02bXxLvlaOxRGe/Zfe4mPIiC1iX6oDyNw==",
+  "dgSpecHash": "7+MTLyF2gyacDMPlN6LyM8ibuuubc+7uNlvO14+Vdkm7Gbed9lx+6+xS1dIKpSQdVhsU+JScnI4XrSbYuOPuow==",
   "success": true,
   "projectFilePath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\_API\\.NET 5\\API-Rest_NET5\\API-Rest_NET5\\API-Rest_NET5.csproj",
   "expectedPackageFiles": [
@@ -144,8 +144,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
